@@ -1,3 +1,4 @@
+# Least to Greatest
 def insert(array)
 	array.each_index { |i|
 		key, j = array[i], i - 1
@@ -10,6 +11,7 @@ def insert(array)
 	array
 end
 
+#Greatest to Least
 def insert(array)
 	array.each_index { |i|
 		key, j = array[i], i - 1
